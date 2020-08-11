@@ -1,0 +1,40 @@
+
+body{
+    background-color: #FED368;
+}
+H1{
+    color:red;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Algerian" ;
+}
+h2{
+    color :blue
+}
+.Games{
+  
+    border: solid;
+    display: flex;
+   justify-content: space-around;
+   flex-direction:  column;
+   align-items: stretch;
+}
+.image{
+    display:flex;
+    justify-content: flex-end;
+   align-items: baseline;
+}
+Table,td,th{
+    border : 2px solid red ;
+    border-collapse : collapse;
+    background-color: lightcoral;
+    
+}
+th{
+    color : royalblue ;
+    text-transform: capitalize;
+}
+td{
+    font-family:"ink free" ;
+}
